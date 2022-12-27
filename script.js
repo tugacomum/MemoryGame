@@ -121,6 +121,7 @@ const flipCard = card => {
                     Ganhaste!<br />
                     com <span class="highlight">${state.totalFlips}</span> jogadas<br />
                     em menos de <span class="highlight">${state.totalTime}</span> segundos
+                    <button onClick="window.location.reload();">Novo jogo</button>
                 </span>
             `
             clearInterval(state.loop)
